@@ -1,5 +1,5 @@
 .main-nav{
-    padding-left: 5px;
+    padding:12px 25px 10px 15px;
     min-height: 20px;
     background: #F78B00;   
 }
@@ -14,6 +14,11 @@
     width: 260px;
     color: #00285F;
     justify-content: space-between;
+    
+}
+
+.navbar-collapse{
+    margin:0px 0px 10px 520px;
 }
 
 .main-menu a{
@@ -35,4 +40,30 @@
 
 .navbar-toggler-icon{
     background: #00285F;
+}
+
+@media(min-width: 768px){
+    .navbar-collapse{
+        margin:0px 0px 10px 240px;
+    }
+}
+
+@media(min-width: 992px){
+    .navbar-collapse{
+        margin:0px 0px 10px 320px;
+    }
+   
+}
+
+@media(min-width: 1280px){
+    .navbar-collapse{
+        margin:0px 0px 10px 720px;
+    }
+   
+}
+
+@media(min-width: 1480px){
+    .navbar-collapse{
+        margin:0px 0px 10px 520px;
+    }
 }

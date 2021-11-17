@@ -1,9 +1,13 @@
 import './styles.css';
+import { ReactComponent as SearchCarIcon } from '../../assets/images/buscacar.svg';
 import CarImg from '../../assets/images/car.png';
-import ButtonIcon from '../ButtonIcon';
+import ButtonBuy from '../ButtonBuy';
+
 const CarCard = () =>{
 
     return (
+        <div className="home-car">
+
         <div className="base-card car_card">
             <div className="card-top-container">
                 <img src={ CarImg } alt="Car" />
@@ -12,9 +16,10 @@ const CarCard = () =>{
                 <h4>Audi Supra TT</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cupiditate, nisi</p>
             </div>
-            <div>
-                <ButtonIcon />
+            <div className="btn-car">
+                <ButtonBuy />
             </div>
+        </div>
         </div>
     );
 };

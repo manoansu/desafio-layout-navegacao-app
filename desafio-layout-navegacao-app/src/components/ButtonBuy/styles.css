@@ -1,0 +1,48 @@
+.car-icon{
+    width: 265px;
+    height: 45px;
+    font-size: 18px;
+    background-color: #00285F;
+    padding: 8px 80px 5px 70px;
+    margin: 0px 80px 5px 22px;
+    border-radius: 5px;
+}
+
+.car-icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height:40px;
+    border-radius:0px 10px 10px 0px ;
+    padding: 7px 2px 5px 5px;
+    margin: 22px 2px 5px 5px;
+}
+
+.car h6{
+    color: #fff;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    padding-top: 2.5px;
+}
+
+@media (min-width: 576px){
+    .car-container{
+        width: 260px;
+        height: 20px;
+        font-size: 14px;
+        padding: 0px 2px 0px 5px;  
+    }
+
+    .car-icon{
+        padding: 2px 40px 5px 60px;
+        margin: 2px 40px 5px 18px;
+    }
+
+    .car-icon h6{
+        width: 174px;
+        height: 40px;
+        font-size: 01em;
+        padding: 10px 59px 5px 13px;
+    }
+}

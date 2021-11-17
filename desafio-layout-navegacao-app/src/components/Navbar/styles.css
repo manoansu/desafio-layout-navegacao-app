@@ -1,6 +1,6 @@
 .main-nav{
-    padding-left: 10px;
-    min-height: 50px;
+    padding-left: 5px;
+    min-height: 20px;
     background: #F78B00;   
 }
 
@@ -31,4 +31,8 @@
 
 .nav-logo-text h4{
     font-weight: bold;
+}
+
+.navbar-toggler-icon{
+    background: #00285F;
 }

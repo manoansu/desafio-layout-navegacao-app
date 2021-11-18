@@ -1,32 +1,17 @@
 .home-global{
-    height: 1080px;
-    width: 1920px;
-    background: #fff;
     padding: 20px 21px 80px 12px;
     margin-left: 15px;
 }
 
-.home-container{
+.home-card{
     width: 300px;
     height: 365px;
-    padding: 5px 0px 0px 10px;
-    left: 10px;
-    top: 90px;
-    font-size: 15px;
-    text-align: center;
-    background-color:#00285F;
-    border-radius: 10px;
-    border: 2px solid yellow;
-}
-
-.home-card{
     display: flex;
     flex-direction: column-reverse;
     color: #fff;
-    border: 2px solid orange;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-    padding: 5px 21px 40px 22px;
+    background-color:#00285F;
+    padding: 0px 50px 0px 0px;
+    margin: 0px 20px 0px 0px;
 }
 
 .home-content-container{
@@ -34,36 +19,32 @@
     flex-direction: column;
     align-items: center;
     font-size: 18px;
-    border: 2px solid red;
-    padding: 45px 21px 5px 22px;
+    padding: 45px 21px 5px 72px;
 }
 .home-content-container h1{
-    font-size: 0.9em;
-    width: 257px;
+    font-size: 1em;
+    width: 287px;
     height: 26px;
-    padding: 5px 22px 13px 22px;
+    padding: 0px 22px 13px 22px;
 }
 .home-content-container p{
-    font-size: 0.6em;
-    width: 251px;
+    font-size: 0.7em;
+    width: 271px;
     height: 32px;
-    padding: 5px 30px 51px 28px;
+    padding: 5px 15px 81px 28px;
 }
 
 .home-image-container{
-    border: 5px solid green;
-    width: 244px;
-    height: 146px;
-    padding: 45px 28px 15px 28px;
+    width: 284px;
+    height: 196px;
+    padding: 75px 28px 5px 48px;
 }
 
 .home-btn{
     width: 300px;
     height: 123px;
     font-size: 22px;
-    background: #EDEDED;
-    margin: 21px 21px 2px 0px;
-    border-radius: 5px;
+    margin: 21px 31px 2px 0px;
 }
 
 .home-btn-button{
@@ -73,10 +54,10 @@
 }
 
 .home-btn-button p{
-    width: 199px;
+    width: 280px;
     height: 21px;
-    font-size: 0.9em;
-    margin: 0px 20px 0px 60px;
+    font-size: 1em;
+    margin: 0px 20px 0px 40px;
 }
 
 .home-image-container svg{
@@ -86,44 +67,42 @@
 
 
 @media(min-width: 576px){
-    .home-container{
-        width: 536px;
-        height: 365px;
-        padding: 5px 10px 0px 5px;
-        font-size: 25px;
-        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-        background-color: #00285F;
-        border-radius: 10px;
-    }
-
     .home-card{
-        padding: 5px 0px 20px 0px;
+        width: 536px;
+        height: 365px;;
+        display: flex;
+        flex-direction: column-reverse;
+        color: #fff;
+        background-color:#00285F;
+        padding: 0px 50px 0px 0px;
+        margin: 0px 20px 0px 0px;
     }
-
+   
     .home-image-container{
         width: 333px;
         height: 199px;
-        padding: 15px 102px 10px 96px;
+        padding: 0px 102px 1px 99px;
     }
 
     .home-content-container{
-        padding: 10px 15px 0px 35px;
+        padding: 0px 15px 0px 45px;
     }
     
     .home-content-container h1{
-        width: 420px;
-        height: 42px;
-        font-size: 1.5em;
-        padding: 1px 5px 0px 38px;
+        width: 480px;
+        height: 50px;
+        font-size: 1.8em;
+        padding: 0px 5px 0px 38px;
         
     }
 
     .home-content-container p{
-        font-size: 0.9em;
-        width: 420px;
-        height: 42px;
-        padding: 0px 22px 41px 15px;
-        margin: 0px 58px 5px 28px;
+        font-size: 1em;
+        width: 480px;
+        height: 92px;
+        text-align: center;
+        padding: 0px 62px 0px 5px;
+        margin: 0px 8px 0px 28px;
     }
 
     .home-btn-button{
@@ -134,14 +113,13 @@
     .home-btn{
         width: 536px;
         height: 123px;
-        background: #fff; 
         margin: 20px 0px 0px 0px;  
     }
 
     .home-btn-button p{
-        width: 520px;
+        width: 790px;
         height: 21px;
-        font-size: 0.8em;
+        font-size: 0.9em;
         color: #585858;        
         margin: 45px 75px 0px 0px; 
     }
@@ -159,7 +137,6 @@
         padding: 5px 10px 0px 5px;
         font-size: 25px;
         box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-        background-color: #00285F;
         border-radius: 10px;
     }
 
@@ -199,8 +176,7 @@
 
     .home-btn{
         width: 536px;
-        height: 123px;
-        background: #fff; 
+        height: 123px; 
         margin: 20px 0px 0px 0px;  
     }
 
@@ -225,8 +201,7 @@
         padding: 5px 10px 0px 5px;
         font-size: 25px;
         box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-        background-color: #00285F;
-        border-radius: 10px;
+        border-radius: 10px;;
     }
 
     .home-card{
@@ -266,7 +241,6 @@
     .home-btn{
         width: 536px;
         height: 123px;
-        background: #fff; 
         margin: 20px 0px 0px 0px;  
     }
 
@@ -292,7 +266,6 @@
         padding: 5px 10px 0px 5px;
         font-size: 25px;
         box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-        background-color: #00285F;
         border-radius: 10px;
     }
 
@@ -338,7 +311,6 @@
     .home-btn{
         width: 536px;
         height: 123px;
-        background: #fff; 
         margin: 20px 0px 0px 0px;  
     }
 

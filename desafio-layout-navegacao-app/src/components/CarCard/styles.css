@@ -1,15 +1,13 @@
 .home-car{
-    height: 450px;
-    border: 2px solid orange;
-    padding: 28px 10px 5px 10px;
+    height: 375px;
+    padding: 10px 10px 0px 10px;
 }
 
 .input-group{
     width: 300px;
-    height: 86px;
-    border: 2px solid black;
-    padding: 0px 2px 5px 0px;
-    margin: 0px 20px 5px 0px;
+    height: 55px;
+    padding: 0px 2px 0px 0px;
+    margin: 0px 30px 0px 0px;
 }
 
 .input-group-append{
@@ -19,23 +17,21 @@
 
 #example-search-input{
     padding: 0px 15px 0px 10px;
-    margin : 22px 1px 0px 10px;
+    margin : 5px 1px 0px 10px;
 }
 
 .form-control{
     width: 199px;
     height: 40px;
-    padding: 0px 10px 5px 0px;
-    margin: 22px 10px 24px 10px;
-    border: 2px solid brown;
+    padding: 0px 10px 0px 0px;
+    margin: 0px 10px 0px 10px;
     background: #FFFFFF;
-    border-radius: 5px 0px 0px 5px;
+    
 }
 
 .car-icon-container{
     background: #00285F;
     padding: 5px 14px 5px 12px;
-    border-radius: 0px 5px 5px 0px;
     margin: 5px 29px 5px 10px;
 }
 
@@ -45,21 +41,17 @@
 
 .card-top-container{
     text-align: center;
-    padding: 16px 0;
-    border-bottom: 1px solid #e1e1e1;
-    border: 2px solid palevioletred;
+    padding: 0px 0px 0px 0px;
 }
 
 .card-top-container img{
     width: 220.72px;
-    height: 165px;
-    border: 2px solid green;
+    height: 150px;
 }
 
 .car-doc-container{
-    padding: 15px 20px 30px 20px;
+    padding: 10px 20px 10px 20px;
     font-size: 18px;
-    border: 2px solid red;
 }
 
 .car-doc-container h4{
@@ -68,7 +60,6 @@
     height: 21px;
     font-size: 1.2em;
     padding: 15px 29px 30px 50px;
-    border: 2px solid black;
 }
 
 .car-doc-container p{
@@ -77,82 +68,206 @@
     font-size: 0.6em;
     padding: 4px 29px 14px 5px;
     color: #263238;
-    border: 2px solid blue;
 }
 
 
 @media(min-width: 576px){
     .home-car{
-        height: 550px;
-        border: 2px solid orange;
+        height: 350px;
         padding: 28px 10px 5px 10px;
     }
 
     .input-group{
         width: 536px;
-        height: 123px;
-        border: 2px solid black;
-        padding: 20px 2px 5px 0px;
-        margin: 0px 20px 5px 0px;
+        height: 70px;
+        padding: 10px 2px 5px 10px;
+        margin: 0px 30px 5px 0px;
     }
+
+    .car-doc-container h4{
+        font-weight: bold;
+        width: 263.86px;
+        height: 21px;
+        font-size: 1.1em;
+        padding: 15px 40px 30px 35px;
+    }
+    
+    .car-doc-container p{
+        width: 264px;
+        height: 32px;
+        font-size: 0.6em;
+        padding: 4px 29px 14px 5px;
+        color: #263238;
+    }
+
+    .car-doc-container{
+        padding: 10px 15px 10px 0px;
+    } 
 }
 
 @media(min-width: 768px){
     .home-car{
-        height: 430px;
-        border: 2px solid orange;
+        height: 350px;
         padding: 28px 10px 5px 10px;
     }
 
     .input-group{
-        width: 728px;
-        height: 115px;
-        border: 2px solid black;
-        padding: 10px 2px 0px 0px;
+        width: 718px;
+        height: 65px;
+        padding: 10px 2px 0px 25px;
         margin: 0px 20px 5px 0px;
     }
+
+    .car-doc-container h4{
+        font-weight: bold;
+        width: 263.86px;
+        height: 21px;
+        font-size: 1.1em;
+        padding: 15px 40px 30px 75px;
+    }    
 }
 
 @media(min-width: 992px){
     .home-car{
         height: 350px;
-        border: 2px solid orange;
         padding: 28px 10px 5px 10px;
     }
 
     .input-group{
         width: 952px;
-        height: 123px;
-        border: 2px solid black;
-        padding: 20px 2px 5px 0px;
-        margin: 0px 20px 5px 0px;
+        height: 60px;
+        padding: 5px 45px 5px 80px;
+        margin: 0px 0px 5px 0px;
     }
    
+    .car-doc-container h4{
+        font-weight: bold;
+        width: 263.86px;
+        height: 21px;
+        font-size: 1.1em;
+        padding: 15px 40px 30px 60px;
+    }
+
+    .car-doc-container p{
+        width: 306px;
+        height: 32px;
+        font-size: 0.7em;
+        padding: 4px 29px 14px 5px;
+        margin: 0px 30px 5px 0px;
+        color: #263238;
+    }
+
+    .car-doc-container{
+        padding: 10px 20px 10px 0px;
+    } 
 }
 
 @media(min-width: 1280px){
     .home-car{
         width: 992;
         height: 365px;
-        border: 2px solid orange;
         padding: 28px 10px 5px 10px;
     }
 
     .input-group{
-        width: 1300px;
-        height: 123px;
-        border: 2px solid black;
-        padding: 20px 2px 5px 0px;
-        margin: 0px 20px 5px 0px;
+        width: 999px;
+        height: 73px;
+        padding: 20px 8px 5px 40px;
+        margin: 0px 98px 5px 20px;
     }
+
+    .car-doc-container h4{
+        font-weight: bold;
+        width: 263.86px;
+        height: 21px;
+        font-size: 1.1em;
+        padding: 15px 40px 30px 60px;
+    }
+
+    .car-doc-container p{
+        width: 306px;
+        height: 32px;
+        font-size: 0.7em;
+        padding: 4px 29px 14px 5px;
+        margin: 0px 30px 5px 0px;
+        color: #263238;
+    }
+
+    .car-doc-container{
+        padding: 10px 20px 10px 0px;
+    }   
+}
+
+
+@media(min-width: 1400px){
+    .home-car{
+        height: 350px;
+        padding: 28px 10px 5px 10px;
+    }
+
+    .input-group{
+        width: 1200px;
+        height: 63px;
+        padding: 5px 8px 5px 40px;
+        margin: 0px 98px 5px 20px;
+    }
+
+    .car-doc-container h4{
+        font-weight: bold;
+        width: 263.86px;
+        height: 21px;
+        font-size: 1.1em;
+        padding: 15px 40px 30px 60px;
+    }
+
+    .car-doc-container p{
+        width: 306px;
+        height: 32px;
+        font-size: 0.7em;
+        padding: 4px 29px 14px 5px;
+        margin: 0px 30px 5px 0px;
+        color: #263238;
+    }
+
+    .car-doc-container{
+        padding: 10px 15px 20px 18px;
+    }   
    
 }
 
-@media(min-width: 1480px){
+
+@media(min-width: 1650px){
     .home-car{
-        height: 400px;
-        border: 2px solid orange;
+        height: 360px;
         padding: 28px 10px 5px 10px;
     }
+
+    .input-group{
+        width: 1200px;
+        height: 63px;
+        padding: 5px 8px 5px 40px;
+        margin: 0px 98px 5px 20px;
+    }
+
+    .car-doc-container h4{
+        font-weight: bold;
+        width: 263.86px;
+        height: 21px;
+        font-size: 1.1em;
+        padding: 15px 40px 30px 60px;
+    }
+
+    .car-doc-container p{
+        width: 306px;
+        height: 32px;
+        font-size: 0.7em;
+        padding: 4px 29px 14px 5px;
+        margin: 0px 30px 5px 0px;
+        color: #263238;
+    }
+
+    .car-doc-container{
+        padding: 10px 15px 20px 18px;
+    }   
    
 }

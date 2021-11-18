@@ -14,11 +14,6 @@
     width: 260px;
     color: #00285F;
     justify-content: space-between;
-    
-}
-
-.navbar-collapse{
-    margin:0px 0px 10px 520px;
 }
 
 .main-menu a{
@@ -39,8 +34,14 @@
 }
 
 .navbar-toggler-icon{
-    background: #00285F;
+    background: linear-gradient(0deg, #00285F, #00285F), #00285F;
+    border-radius: 5px;
 }
+.navbar-toggler{
+    color: linear-gradient(0deg, #00285F, #00285F), #00285F;
+    border-radius: 5px;
+}
+
 
 @media(min-width: 768px){
     .navbar-collapse{
